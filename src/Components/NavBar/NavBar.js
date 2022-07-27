@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import CartWidget from '../CartWidget/CartWidget';
 
 const NavBar = ()=>{
     return (
@@ -35,6 +35,7 @@ const NavBar = ()=>{
               aria-label="Search"
             />
             <Button variant="secondary">Buscar</Button>
+            <CartWidget></CartWidget>
           </Form>
         </Navbar.Collapse>
       </Container>
