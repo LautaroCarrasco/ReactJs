@@ -1,0 +1,11 @@
+.productContainer{
+    margin: 10px 10px;
+    justify-self: center;
+}
+
+.productImg{
+    width: 255px;
+    height: 255px;
+    align-self: center;
+    margin-top: 6px;
+}
