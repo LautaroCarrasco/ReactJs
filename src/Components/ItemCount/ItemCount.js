@@ -1,11 +1,11 @@
 import './ItemCount.css'
 import { useState } from 'react';
 
-const ItemCount = ({stock, initial})=>{
-    const [counter, setCounter] = useState(initial);
+const ItemCount = ({stock})=>{
+    const [counter, setCounter] = useState(1);
 
     const restCount = ()=>{
-        if(counter > initial){
+        if(counter > 1){
             setCounter(counter - 1);
         }
     }
