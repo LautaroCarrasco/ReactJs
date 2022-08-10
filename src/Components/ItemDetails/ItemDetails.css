@@ -1,0 +1,7 @@
+.itemDetailsContainer{
+    display: flex;
+    justify-content: center;
+}
+.cardContainer{
+    margin-top: 50px;
+}
