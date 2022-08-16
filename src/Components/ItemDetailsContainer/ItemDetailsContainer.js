@@ -12,7 +12,6 @@ const ItemDetailsContainer = ()=>{
         getProductById(parseInt(id))
             .then(product => {
                 setProduct(product)
-                console.log(product)
             })
             .catch(error => {
                 console.log(error)
